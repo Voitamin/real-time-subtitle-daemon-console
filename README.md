@@ -4,6 +4,24 @@ Low-latency live subtitle daemon for Japanese-to-Chinese streaming workflows.
 It combines live or file-based subtitle ingestion, multi-stage LLM processing,
 adaptive queue control, and a small React web console for live monitoring.
 
+## System overview
+
+![System architecture](docs/system-architecture.svg)
+
+## Console surfaces
+
+![Console screenshot](docs/console-screenshot.png)
+
+![Operator workflow](docs/workflow-overview.svg)
+
+## What I personally implemented
+
+- End-to-end daemon runtime for subtitle ingest, queueing, deadline handling, and output generation
+- Two-stage LLM processing flow for JP cleanup/correction and JP-to-ZH translation
+- Provider routing and fallback logic across multiple OpenAI-compatible endpoints
+- SQLite-backed runtime state, trace logging, and operator-facing FastAPI APIs
+- React console for monitoring live status, editing cues, adjusting delay, and hot-updating terminology
+
 ## What this project shows
 
 - Real-time subtitle processing with deadline-aware scheduling
@@ -30,10 +48,6 @@ tests/               Unit tests for config, pipeline, console, and storage logic
 tools/               Local benchmarking and replay helpers
 config.toml.example  Public-safe example configuration
 ```
-
-## Demo Screenshot
-
-![Console screenshot](docs/console-screenshot.png)
 
 ## Quick start
 
