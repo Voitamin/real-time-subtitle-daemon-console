@@ -110,6 +110,19 @@ npm run build
 cd ..
 ```
 
+### 5. Seed a screenshot-ready console demo
+
+If you want a non-empty console for portfolio screenshots without a live stream,
+run the seeded demo workspace:
+
+```powershell
+python .\tools\run_console_demo.py
+```
+
+This starts a local console with realistic sample states including displayed cues,
+manual edits, deleted cues, fallback routing, inflight work, and pending items.
+Open the printed URL in your browser and capture the console there.
+
 ## Config notes
 
 - `config.toml.example` is safe to publish and uses environment variables for secrets.
