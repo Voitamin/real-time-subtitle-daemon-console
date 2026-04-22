@@ -17,10 +17,6 @@ flowchart LR
     F --> G[FastAPI + React console]
 ```
 
-## Console screenshot
-
-![Console screenshot](docs/console-screenshot.png)
-
 ## What I personally implemented
 
 - End-to-end daemon runtime for subtitle ingest, queueing, deadline handling, and output generation
