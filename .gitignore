@@ -1,0 +1,69 @@
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local config / secrets
+.env
+.env.*
+config.toml
+config.local.toml
+
+# Runtime outputs
+benchmark_runs/
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.log
+*.jsonl
+zh.txt
+zh.srt
+jp.txt
+jp.srt
+jp1.srt
+
+# Local probes / captured media
+*.wav
+*.pcm
+*.mp4
+*.mkv
+*.avi
+
+# External tools and local app installs
+*.exe
+obs-a/
+obs-b/
+obs/
+obs-studio/
+7.46.0.10241/
+
+# Frontend build outputs
+web_console/node_modules/
+web_console/dist/
+web_console/*.tsbuildinfo
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Scratch / temp files
+*.tmp
+*.temp
+*.bak
+OUT
+1.txt
+New 1.txt

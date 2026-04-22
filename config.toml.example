@@ -1,0 +1,186 @@
+﻿[source]
+input_srt = "jp.srt"
+input_txt = "jp.txt"
+poll_interval_sec = 0.5
+mode = "file" # file | speechmatics
+
+[source.speechmatics]
+api_key = ""
+api_key_env = "SPEECHMATICS_API_KEY"
+language = "ja"
+operating_point = "enhanced"
+enable_partials = true
+max_delay = 20.0
+max_delay_mode = "flexible" # flexible | fixed
+sample_rate = 16000
+chunk_size = 4096
+capture_backend = "ffmpeg_pipe"
+capture_cmd = "ffmpeg -hide_banner -loglevel warning -f wasapi -i default -ac 1 -ar {sample_rate} -f s16le -"
+additional_vocab_from = "names_whitelist_glossary" # names_whitelist_glossary | names_whitelist | glossary | none
+additional_vocab_limit = 1000
+final_aggregate_enabled = true
+final_aggregate_mode = "v2" # v1 | v2
+final_aggregate_gap_sec = 1.2
+final_aggregate_max_sec = 8.0
+final_aggregate_force_emit_sec = 12.0
+final_aggregate_min_chars = 8
+final_aggregate_max_chars = 120
+final_aggregate_overlap_dedup = true
+final_aggregate_flush_on_punct = true
+
+[output]
+zh_txt = "zh.txt"
+zh_srt = "zh.srt"
+
+[llm]
+# provider: xai | deepseek | qwen | zai (alias: z.ai)
+provider = "deepseek"
+# Stage routing (optional): if set, overrides single-provider stage routing.
+correct_provider = "deepseek"
+translate_provider = "deepseek"
+translate_fallback_provider = "deepseek"
+translate_fallback_on_error = false
+translate_fallback_timeout_sec = 20
+# Optional global overrides (if set, they override provider section)
+# base_url = "https://api.x.ai/v1"
+# correct_model = "grok-3-mini"
+# translate_model = "grok-3-mini"
+# api_key = ""
+# api_key_env = "XAI_API_KEY"
+correct_timeout_sec = 12
+translate_timeout_sec = 12
+max_retries = 1
+retry_backoff_sec = 1.5
+batch_size = 5
+translate_context_window = 3
+temperature = 0
+
+[providers.xai]
+base_url = "https://api.x.ai/v1"
+api_key = ""
+api_key_env = "XAI_API_KEY"
+default_model = "grok-3-mini"
+correct_model = "grok-3-mini"
+translate_model = "grok-3-mini"
+fast_correct_model = "grok-3-mini"
+fast_translate_model = "grok-3-mini"
+
+[providers.deepseek]
+base_url = "https://api.deepseek.com/v1"
+api_key = ""
+api_key_env = "DEEPSEEK_API_KEY"
+default_model = "deepseek-chat"
+correct_model = "deepseek-chat"
+translate_model = "deepseek-chat"
+fast_correct_model = "deepseek-chat"
+fast_translate_model = "deepseek-chat"
+
+[providers.qwen]
+base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+api_key = ""
+api_key_env = "DASHSCOPE_API_KEY"
+default_model = "qwen-plus"
+correct_model = "qwen-plus"
+translate_model = "qwen-plus"
+fast_correct_model = "qwen-plus"
+fast_translate_model = "qwen-plus"
+
+[providers.zai]
+base_url = "https://api.z.ai/api/paas/v4"
+api_key = ""
+api_key_env = "ZAI_API_KEY"
+default_model = "glm-5"
+correct_model = "glm-5"
+translate_model = "glm-5"
+fast_correct_model = "glm-5-air"
+fast_translate_model = "glm-5-air"
+
+[pipeline]
+batch_max_wait_sec = 20
+batch_max_lines = 6
+context_wait_timeout_sec = 10
+s1_mode = "lite" # off | lite | full | lite_ai_join
+s1_lite_punctuation_only = true
+s1_ai_join_marker = "<<JOIN_NEXT>>"
+s1_ai_join_allow_light_compress = true
+s1_ai_join_max_chain = 0
+s1_ai_join_keep_min_chars = 0
+
+[adaptive]
+enabled = true
+mode = "auto" # auto | green | yellow | red
+green_slack_ms = 30000
+red_slack_ms = 10000
+backlog_red_threshold = 24
+red_parallel_contextless = 2
+service_rate_floor_lps = 0.05
+tail_quiet_arrival_lps = 0.02
+tail_small_backlog_threshold = 6
+tail_red_guard = true
+red_force_s1_off = true
+
+[adaptive_predict]
+pipeline_service_percentile = 90 # 50 | 90 | 95
+queue_exclude_current_batch = true
+warmup_min_completions = 8
+warmup_nominal_pipeline_ms = 22000
+
+[adaptive_risk]
+green_max_ratio = 0.80
+yellow_max_ratio = 1.00
+tail_guard_ratio = 1.05
+
+[adaptive_fast]
+block_when_latest_ready_ratio = 0.50
+emergency_when_latest_ready_ratio = 0.18
+allow_fast_if_overdue = true
+
+[console]
+enabled = true
+host = "127.0.0.1"
+port = 8787
+
+[runtime_scope]
+enabled = true
+only_active_source_kind = true
+freshness_sec = 1800
+monotonic_guard_sec = 600
+auto_archive_stale_on_start = true
+
+[align]
+# Match OBS1 A/V delay in dual-OBS relay setup
+delay_sec = 180
+asr_delay_sec = 3
+
+[render]
+tick_hz = 1
+char_threshold = 42
+max_total_chars = 84
+max_lines = 2
+two_line_roll_enabled = true
+min_hold_sec = 1.6
+target_cps = 13.0
+max_hold_sec = 4.0
+backlog_relax_threshold = 10
+backlog_relaxed_min_hold_sec = 1.0
+
+[state]
+db_path = "state.sqlite3"
+
+[metrics]
+trace_enabled = true
+trace_path = "runtime_trace.jsonl"
+trace_interval_sec = 1.0
+
+[fallback]
+mode = "jp_raw"
+
+[knowledge]
+glossary_path = "glossary_ja_zh.tsv"
+names_path = "names_whitelist_ja.txt"
+reload_interval_sec = 2
+correct_glossary_limit = 200
+translate_glossary_limit = 500
+names_limit = 500
+names_phonetic_canonicalize_enabled = true
+names_phonetic_max_rules = 500

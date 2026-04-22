@@ -1,0 +1,62 @@
+###############################################
+# MediaMTX RTMP-only relay config (local loopback)
+#
+# Purpose:
+# OBS1 -> RTMP publish -> MediaMTX -> OBS2 RTMP read
+# Stream path/key: relaymain
+###############################################
+
+logLevel: info
+logDestinations: [stdout, file]
+logStructured: false
+logFile: mediamtx_rtmp.log
+
+readTimeout: 10s
+writeTimeout: 10s
+writeQueueSize: 512
+
+authMethod: internal
+authInternalUsers:
+  - user: any
+    pass:
+    ips: []
+    permissions:
+      - action: publish
+        path: relaymain
+      - action: read
+        path: relaymain
+      - action: playback
+        path: relaymain
+  - user: any
+    pass:
+    ips: ['127.0.0.1', '::1']
+    permissions:
+      - action: api
+      - action: metrics
+      - action: pprof
+
+# Optional local API for debug tools.
+api: true
+apiAddress: 127.0.0.1:9997
+
+metrics: false
+pprof: false
+playback: false
+
+# Disable unused protocols to avoid extra port conflicts.
+rtsp: false
+hls: false
+webrtc: false
+srt: false
+
+# Enable RTMP relay on localhost.
+rtmp: true
+rtmpEncryption: "no"
+rtmpAddress: 127.0.0.1:1935
+
+pathDefaults:
+  source: publisher
+  overridePublisher: true
+
+paths:
+  relaymain: {}

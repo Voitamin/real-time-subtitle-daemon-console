@@ -1,0 +1,321 @@
+﻿# ===== Event / Common =====
+KOP7th
+KING of Performai
+Performai	ぱふぉーまい
+The 7th
+全国決勝	ぜんこくけっしょう
+決勝	けっしょう
+準決勝	じゅんけっしょう
+準々決勝	じゅんじゅんけっしょう
+LCQ	えるしーきゅー
+課題曲	かだいきょく
+自選曲	じせんきょく
+選曲	せんきょく
+譜面	ふめん
+達成率	たっせいりつ
+スコア	すこあ
+実況	じっきょう
+解説	かいせつ
+MC	えむしー
+MASTER	ますたー
+Re:MASTER	り:ますたー
+ULTIMA	うるてぃま
+WORLD'S END	わーるずえんど
+DX	でらっくす
+DXスコア	でらっくすこあ,でらすこ
+でらっくスコア	でらっくすこあ
+TECHNICAL SCORE	てくにかるすこあ
+JUSTICE CRITICAL	じゃすてぃすくりてぃかる
+JUSTICE	じゃすてぃす
+ATTACK	あたっく
+MISS	みす
+BREAK	ぶれいく
+GREAT	グレ
+GOOD	ぐっど
+HIT	ひっと
+PLATINUM BREAK	ぷらちなむぶれいく
+FAST	ふぁすと
+LATE	れいと
+SSS	とりぷるえ,とりぷるえす
+TRACK	とらっく
+湯毛	ゆげ
+河野海樹	こうのうみき
+からめる	からめる
+Godspeed	ごっどすぴーど
+Jack	じゃっく
+Revo@LC	れぼあっとえるしー
+Meteian	めてぃあん
+コハD	こはでぃー
+光吉猛修	みつよしたけしゅう
+はっぴー	はっぴー
+チュウニペンギン	ちゅうにぺんぎん
+maimai	まいまい
+maimai でらっくす	まいまい でらっくす
+でらっくす	でらっくす
+オンゲキ	おんげき
+CHUNITHM	ちゅーにずむ
+チュウニズム	ちゅーにずむ
+ＲｅＭｉＲｉＡ	れみりあ
+つきほ	つきほ
+顔文字禁止され太郎	かおもじきんしされたろう
+のん	のん
+たけるん	たけるん
+ロイヤルブレッド	ろいやるぶれっど
+たかこう	たかこう
+よしき	よしき
+サイゴノキボウ	さいごのきぼう
+誰だよ	だれだよ
+ちいさなまほうつかい	ちいさなまほうつかい
+【自称】世界一maimaiが好き	じしょうせかいいちまいまいがすき
+限界を超える	げんかいをこえる
+自認消費期限切れ	じにんしょうひきげんぎれ
+Step up your "Game"	すてっぷあっぷゆあげーむ
+絶対王者	ぜったいおうじゃ
+もちゃのすけ	もちゃのすけ
+ｈａｓｕ＋	はすぷらす
+ＳＫＧ	えすけーじー
+ぴんりこ	ぴんりこ
+れすてぃー	れすてぃー
+みすてぃーば	みすてぃーば
+ちはる	ちはる
+Ｑｕｉｌｔｉｋａ	クリティカ
+みるくちゃん無双	みるくちゃんむそう
+インペリアルマンモス	いんぺりあるまんもす
+えっ！？あなた、誰ですか...？	えっあなただれですか
+今月は木の実で生活	こんげつはきのみでせいかつ
+セレスティアレイド・ギャラクシィ	せれすてぃあれいどぎゃらくしぃ
+がんばリダイブ	がんばりだいぶ
+革命	かくめい
+All Quiltika'l break!!	おーるくぃるてぃかるぶれいく
+ｓｔｒ	えすてぃーあーる
+ＪＴ	じぇーてぃー
+Ｙ．Ｙ．	わいわい
+ＨＰＳ	えいちぴーえす
+あべゆー	あべゆー
+ＨＡＫＵ	はく
+ぱ〜ぷる	ぱーぷる
+ネタ切れ	ねたぎれ
+just tired	じゃすとたいやーど
+不屈の挑戦者	ふくつのちょうせんしゃ
+Play Hard and Surpass.	ぷれいはーどあんどさぱーす
+名勝負メーカー	めいしょうぶめーかー
+猫大好き	ねこだいすき
+運だけの	うんだけ
+押せない配置は擦って解決！	おせないはいちはすってかいけつ
+Ｔｅｔｒａ＿ＳＲ	てとらえすあーる
+Ｍｉｎｊｉｎ	みんじん
+ＩＮＦ．	いんふ
+ＪＡＫＡＤＳ	じゃかっど
+何の意味	なんのいみ
+FANTASTIC CLEAR!!	ふぁんたすてぃっくくりあ
+Yes I am.	いえすあいあむ
+【WORLD'S END 狂☆☆☆☆☆】	わーるずえんどきょう
+AMAZING MIGHTYYYY!!!!	あめいじんぐまいてぃー
+Apollo	あぽろ
+ATLAS RUSH	あとらすらっしゅ
+Cryptarithm	くりぷたりずむ
+Customized Justice	かすたまいずどじゃすてぃす
+Divide et impera!	でぃうゔぃで えっと いんぺら
+Excalibur ～Revived resolution～	えくすかりばー りばいぶど りぞりゅーしょん
+False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)	ふぉーるすあんばー
+FLΛME/FRΦST	ふれーむ ふろすと
+GIGANTØMAKHIA	ぎがんとうまきあ
+Glorious Crown	ぐろりあすくらうん
+Heavenly Blast	へぶんりーぶらすと
+KHYMΞXΛ	きめくさ
+LAMIA	らみあ
+larva	らーば
+Latent Kingdom	れいてんときんぐだむ
+Lia=Fail	りあ ふぇいる,りあ　ふぁーる
+Metamorphosism	めたもるふぉしずむ
+Our Wrenally	あわーれなりー
+PANDORA PARADOXXX	ぱんどら ぱらどっくす
+QZKago Requiem	くずかご れくいえむ,くずかご
+raputa	らぷた
+Regulus	れぐるす
+ℝ∈Χ LUNATiCA	りーくす るなてぃか
+SILENT BLUE	さいれんとぶるー
+sølips	そーりぷす
+Straight into the lights	すとれいと いんと ざ らいつ
+TEmPTaTiON	てんぷてーしょん
+the EmpErroR	ざ えんぺらー
+Valsqotch	ばるすこっち
+VeRForTe αRtE:VEiN	ゔぇるふぉーて あーて ゔぇいん
+VERTeX	ゔぇるてっくす
+VIIIbit Explorer	えいとびっと えくすぷろーらー
+WiPE OUT MEMORIES	わいぷ あうと めもりーず
+World's end BLACKBOX	わーるずえんど ぶらっくぼっくす
+World's end loneliness	わーるずえんど ろーんりねす
+チューリングの跡	ちゅーりんぐのあと
+怒槌	いかりづち
+雨露霜雪	あめつゆしもゆき
+宙天	ちゅうてん
+康莊大道	こうそうだいどう
+氷滅の135小節	ひょうめつのひゃくさんじゅうごしょうせつ
+封焔の135秒	ふうえんのひゃくさんじゅうごびょう
+躯樹の墓守	きじゅのはかもり
+系ぎて	つなぎて
+Alea jacta est!	あれあ やくた えすと
+Garakuta Doll Play	がらくたどーるぷれい
+Schwarzschild	しゅばるつしると
+ガラテアの螺旋	がらてあのらせん
+雷切-RAIKIRI-	らいきり
+Cult future	かるとふゅーちゃー
+Diamond Dust	だいやもんどだすと
+Don't Fight The Music	どんとふぁいとざみゅーじっく
+eden	えでん
+Falsum Atlantis.	ふぁるすむ あとらんてぃす
+FREEDOM DiVE	ふりーだむ だいぶ
+GAME：CHANGER	げーむ ちぇんじゃー
+GODLINESS	ごっどりねす
+Good bye, Merry-Go-Round.	ぐっどばい めりーごーらうんど
+Good bye, Merry-Go-Round. (Kobaryo's FTN-Remix)	ぐっどばい めりーごーらうんど こばりょーず えふてぃーえぬ りみっくす
+Hainuwele	はいぬうぇれ
+[HALO]	はろー
+Invisible Frenzy	いんゔぃじぶるふれんじー
+MANIERA REMASTERED	まにえら りますたーど
+Nýx	にくす
+Sage	せーじ
+Sparking Revolver	すぱーきんぐ りゔぉるゔぁー
+Synthesis.	しんせしす
+Titania	てぃたにあ
+Viyella's Scream	ゔぃえら すくりーむ
+Sakuzyo	さくじょ
+淵底のグレイ・ユークロニア	えんていのぐれい ゆーくろにあ
+オンソクデイズ!!	おんそくでいず
+浮世絵横丁	うきよえよこちょう
+蜘蛛の糸	くものいと
+シリウスの輝きのように	しりうすのかがやきのように
+And Revive The Melody	あんど りばいぶ ざ めろでぃー
+DIE IN	だい いん
+Distorted Fate	でぃすとーてっど ふぇいと
+FestA of PandemoniuM	ふぇすた おぶ ぱんでもにうむ
+girls.exe	がーるず えぐぜ
+I Wanna	あい わな
+Lazulis Gambit	らずりす がんびっと
+lovelynonsense	らぶりーのんせんす
+Magical Panic Adventure	まじかる ぱにっく あどべんちゃー
+MarbleBlue.	まーぶるぶるー
+MeteorSnow	みーてぃあすのー
+MY GLORY WANTED!!!	まい ぐろーりー うぉんてっど
+Op.I《fear-TITΛN-》	おぷ.わん ふぃあー たいたん
+Opfer	おぷふぁー
+POTENTIAL	ぽてんしゃる
+Sargasso	さるがっそ
+Scythe of Death	さいす おぶ です
+Selenadia	せれなでぃあ
+Stardust:RAY	すたーだすと れい
+Stellar:Dream	すてらー どりーむ
+Λzure Vixen	あずーる ゔぃくせん
+μ3	みゅーさん
+ω4	おめがふぉー
+光焔のラテラルアーク	こうえんのらてらるあーく
+宿星審判	しゅくせいしんぱん
+脳天直撃	のうてんちょくげき
+雪男	ゆきおとこ
+Recollect Lines	りこれくと らいんず
+Finite	ふぁいないと
+ΩΩPARTS	おめがおめがぱーつ
+HAELEQUIN (Original Remaster)	はえれきん おりじなる りますたー
+★LittlE HearTs★	りとる はーつ
+Dengeki Tube	でんげき ちゅーぶ
+Love & Justice	らぶ あんど じゃすてぃす
+Contrapasso -inferno-	こんとらぱっそ いんふぇるの
+otorii INNOVATED -[i]3-	おとりー いーのゔぇいてっど あいさん
+《破滅》 ～ Rhapsody for The End	はめつ らぷそでぃー ふぉー ざ えんど
+Reverberate	りゔぁーべれいと
+ZegalltA	ぜがるた
+LibrariA	りぶらりあ
+hyperreality	はいぱーりありてぃー
+What's up? Pop!	わっつ あっぷ ぽっぷ
+玩具狂奏曲 -終焉-	おもちゃきょうそうきょく しゅうえん
+Trrricksters!!	とりっくすたーず
+X7124	えっくすななせんにじゅうよん
+parvorbital	ぱるゔおーびたる
+Strange Love	すとれんじ らぶ
+Disruptor Array	でぃすらぷたー あれい
+リ・フィクション・O	り ふぃくしょん おー
+Galaxy Collapse	ぎゃらくしー こらぷす
+キミとボクへの葬送歌	きみとぼくへのそうそうか
+TiamaT:F minor	てぃあまっと えふまいなー
+Killing Rhythm	きりんぐ りずむ
+The Devil Incarnate	ざ でびる いんかーねいと
+HeinousЯeaper	へいのす りーぱー
+Everything Will Be One	えぶりしんぐ うぃる びー わん
+OUTRAGE	あうとれーじ
+輪廻玲々	りんねれいれい
+To：Be Continued	とぅー びー こんてぃにゅーど
+ラストピースに祝福と栄光を	らすとぴーすにしゅくふくとえいこうを
+Aether Crest: Celestial	えーてる くれすと せれすてぃある
+混沌を越えし我らが神聖なる調律主を讃えよ	こんとんをこえしわれらがしんせいなるちょうりつしゅをたたえよ
+World Vanquisher	わーるど ばんくぃっしゅー
+業 -善なる神とこの世の悪について-	ごう よきなるかみとこのよのあくについて
+The Metaverse -First story of the SeelischTact-	ざ めたばーす ふぁーすとすとーりー おぶ ざ しーりっしゅたくと
+祈 -我ら神祖と共に歩む者なり-	いのり われらがしんそとともにあゆむものなり
+MALKUTH -The Last Ruler of Terrestrials-	まるくーと ざ らすと るーらー おぶ てれすとりあるず
+DA'AT -The First Seeker of Souls-	だーと ざ ふぁーすと しーかー おぶ そうるず
+グラウンドスライダー協奏曲第一番「風唄」	ぐらうんどすらいだー きょうそうきょく だいいちばん かぜうた
+Daphnis	だふにす
+Makear	まきあー
+Chaotic Ørder	かおてぃっく おーだー
+Ultimate Force	あるてぃめいと ふぉーす
+Tuatha Dé Danann	つあーた でー だなーん
+Forsaken Tale	ふぉーせいくん ていーる
+MegiddØ	めぎっど
+Crossmythos Rhapsodia	くろすみそす らぷそでぃあ
+神鳴	かみなり
+Tru'nembra	とぅるねんぶら
+WAiKURO	わいくろ
+kanone	かのね
+削除	さくじょ
+かめりあ	かめりあ
+BlackY	ぶらっくわい
+siromaru	しろまる
+ガリガリさむし	がりがりさむし
+Hiro	ひろ
+かねこちはる	かねこちはる
+owl＊tree	おーるとりー,おーるつりー
+chi＊tree	ちーとりー,ちーつりー
+お月さま交響曲	おつきさまこうきょうきょく
+Lime	らいむ
+Team Grimoire	ちーむぐりもあ
+のらねこさい	のらねこさい
+ricono	りこの
+t+pazolite	とぱぞらいと
+ああ…翡翠茶漬け…	ああひすいちゃづけ
+Laur	ラウール
+大国奏音	おおぐにかのん
+rintaro soma	りんたろうそま
+Frums	ふるむす
+打打だいず	だだだいず
+FANTAGIRAFF	ふぁんたじらふ
+Project Grimoire	ぷろじぇくとぐりもあ
+Capchii	きゃっぷちー
+山本真央樹	やまもとまおき
+Tatsh	たっしゅ
+MisoilePunch♪	みそいるぱんち
+ねこぼーろ	ねこぼーろ
+void (Mournfinale)	うゔぉいど もーんふぁいなる
+Kobaryo	こばりょー
+庭師	にわし
+Katzeohr	かつぜおーる
+Spiegel	しぴーげる
+orangentle	おれんじぇんとる
+せーの	せーの
+水野健治	みずのけんじ
+穴山大輔	あなやまだいすけ
+隅田川星人	すみだがわほしひと
+某S氏	ぼうえすし
+Luxizhel	るくしぜる
+鳩	はと
+鳩ホルダー	はとほるだー
+小鳥遊	ことり
+7.3GHz	しちみへるつ
+7.3Ghz	しちみへるつ
+シチミヘルツ	しちみへるつ
+サファ太	さふぁた
+翠楼屋	すいろうや
+ハル君	はるくん,はらくん
+クラウド	くらうど
+Kaleidxscope	かれいどすこーぷ
+ハテナ	はてな
