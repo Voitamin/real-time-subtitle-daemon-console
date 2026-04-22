@@ -4,18 +4,12 @@ Low-latency live subtitle daemon for Japanese-to-Chinese streaming workflows.
 It combines live or file-based subtitle ingestion, multi-stage LLM processing,
 adaptive queue control, and a small React web console for live monitoring.
 
-## Translation workflow
+## Console dashboard
 
-```mermaid
-flowchart LR
-    A[Audio / subtitle input] --> B[ASR or file ingest]
-    B --> C[JP normalization<br/>cleanup + correction]
-    C --> D[JP to ZH translation<br/>glossary + provider fallback]
-    D --> E[Subtitle outputs<br/>zh.txt / zh.srt / overlay]
-    C --> F[(SQLite runtime state)]
-    D --> F
-    F --> G[FastAPI + React console]
-```
+![Console dashboard](docs/screenshots/console-dashboard.png)
+
+The console surfaces queue pressure, deadline risk, provider routing, glossary edits,
+and per-cue operator actions in one operator-facing screen.
 
 ## What I personally implemented
 
