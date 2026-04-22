@@ -11,6 +11,12 @@ adaptive queue control, and a small React web console for live monitoring.
 The console surfaces queue pressure, deadline risk, provider routing, glossary edits,
 and per-cue operator actions in one operator-facing screen.
 
+## Real-world usage
+
+This subtitle system was used in real live-stream viewing scenarios rather than only local demos. In one deployment context, the stream reached **88,000 total viewers**, **12,634 peak concurrent viewers**, and **20.4 minutes average watch time**. These figures reflect the scale of the live environment in which the subtitle workflow was used, rather than direct causal attribution to the system alone.
+
+![Usage snapshot from a real deployment](docs/live-usage-snapshot.png)
+
 ## What I personally implemented
 
 - End-to-end daemon runtime for subtitle ingest, queueing, deadline handling, and output generation
